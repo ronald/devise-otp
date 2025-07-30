@@ -1,0 +1,54 @@
+nl:
+  devise:
+    otp:
+      general:
+        remember: "Onthoud mij"
+      submit_token:
+        title: "Controleer token"
+        explain: "Je ziet dit omdat je twee-factor-authenticatie hebt ingeschakeld op je account"
+        prompt: "Voer je twee-factor-authenticatie-token in:"
+        recovery_prompt: "Voer je herstelcode in:"
+        submit: "Verzend token"
+        recovery_link: "Ik heb mijn apparaat niet, ik wil een herstelcode gebruiken"
+      otp_credentials:
+        otp_session_invalid: "Sessie ongeldig. Begin opnieuw."
+        token_invalid: "De opgegeven token is ongeldig."
+        token_blank: "Je moet de token invoeren die je apparaat heeft gegenereerd."
+        need_to_refresh_credentials: "We moeten je inloggegevens controleren voordat je deze instellingen kunt wijzigen."
+        valid_refresh: "Dank je, je inloggegevens zijn geaccepteerd."
+        invalid_refresh: "Sorry, je hebt onjuiste inloggegevens opgegeven."
+      credentials_refresh:
+        title: "Voer je wachtwoord opnieuw in."
+        explain: "Om de veiligheid te waarborgen, voer je je wachtwoord opnieuw in."
+        go_on: "Doorgaan..."
+        identity: "Identiteit:"
+        token: "Je twee-factor-authenticatie-token"
+      token_secret:
+        title: "Je geheime token"
+        explain: "Maak een foto van deze QR-code met je mobiel"
+        manual_provisioning: "Handmatige configuratiecode"
+      otp_tokens:
+        title: "Twee-factor-authenticatie:"
+        enable_link: "Twee-factor-authenticatie inschakelen"
+        disable_link: "Twee-factor-authenticatie uitschakelen"
+        reset_link: "Tokengeheim opnieuw instellen"
+        reset_explain: "Het opnieuw instellen van je tokengeheim schakelt tijdelijk de twee-factor-authenticatie uit."
+        reset_explain_warn: "Om twee-factor-authenticatie opnieuw in te schakelen, moet je je mobiele apparaat opnieuw registreren met het nieuwe tokengeheim."
+        successfully_updated: "Je instellingen voor twee-factor-authenticatie zijn bijgewerkt."
+        could_not_confirm: "De bevestigingscode komt niet overeen met de QR-code hieronder."
+        successfully_disabled_otp: "Twee-factor-authenticatie is uitgeschakeld."
+        successfully_reset_otp: "Je tokengeheim is opnieuw ingesteld. Bevestig je nieuwe tokengeheim hieronder."
+        successfully_set_persistence: "Je apparaat wordt nu vertrouwd."
+        successfully_cleared_persistence: "Je apparaat is verwijderd uit de lijst met vertrouwde apparaten."
+        successfully_reset_persistence: "De lijst met vertrouwde apparaten is gewist."
+        need_to_refresh_credentials: "We moeten je inloggegevens controleren voordat je deze instellingen kunt wijzigen."
+        recovery:
+          title: "Je noodherstalcodes"
+          explain: "Noteer of print deze herstelcodes. Ze geven je toegang als je tokenapparaat verloren, gestolen of niet beschikbaar is."
+          sequence: "Volgorde"
+          code: "Herstelcode"
+          codes_list: "Hier is de lijst met je herstelcodes"
+          download_codes: "Download herstelcodes"
+      edit_otp_token:
+        title: "Twee-factor-authenticatie inschakelen"
+        explain: "Twee-factor-authenticatie voegt een extra beveiligingslaag toe aan je account. Bij het inloggen wordt je gevraagd om een code van een fysiek appar

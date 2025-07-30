@@ -1,0 +1,65 @@
+de:
+  devise:
+    otp:
+      general:
+        remember: "Angemeldet bleiben"
+      submit_token:
+        title: "Token prüfen"
+        explain: "Sie erhalten dies, weil Sie die Zwei-Faktor-Authentifizierung aktiviert haben"
+        prompt: "Bitte geben Sie Ihren Zwei-Faktor-Authentifizierungs‑Token ein:"
+        recovery_prompt: "Bitte geben Sie Ihren Wiederherstellungs‑Code ein:"
+        submit: "Token senden"
+        recovery_link: "Ich habe mein Gerät nicht, ich möchte einen Wiederherstellungs‑Code nutzen"
+      otp_credentials:
+        otp_session_invalid: "Sitzung ungültig. Bitte erneut starten."
+        token_invalid: "Der eingegebene Token war ungültig."
+        token_blank: "Sie müssen den Token eingeben, den Sie mit Ihrem Gerät generiert haben."
+        valid_refresh: "Danke, Ihre Zugangsdaten wurden akzeptiert."
+        invalid_refresh: "Entschuldigung, Sie haben falsche Zugangsdaten eingegeben."
+      credentials_refresh:
+        title: "Bitte geben Sie Ihr Passwort erneut ein."
+        explain: "Um sicherzugehen, geben Sie bitte erneut Ihr Passwort ein."
+        go_on: "Weiter..."
+        identity: "Identität:"
+        token: "Ihr Zwei-Faktor-Authentifizierungs‑Token"
+      token_secret:
+        title: "Ihr Token‑Geheimnis"
+        explain: "Machen Sie ein Foto dieses QR‑Codes mit Ihrem Mobilgerät"
+        manual_provisioning: "Manueller Bereitstellungscode"
+      otp_tokens:
+        title: "Zwei-Faktor-Authentifizierung:"
+        enable_link: "Zwei-Faktor-Authentifizierung aktivieren"
+        disable_link: "Zwei-Faktor-Authentifizierung deaktivieren"
+        reset_link: "Token-Geheimnis zurücksetzen"
+        reset_explain: "Das Zurücksetzen Ihres Token‑Geheimnisses deaktiviert vorübergehend die Zwei-Faktor-Authentifizierung."
+        reset_explain_warn: "Um die Zwei‑Faktor‑Authentifizierung erneut zu aktivieren, müssen Sie Ihr Mobilgerät mit dem neuen Token‑Geheimnis erneut registrieren."
+        successfully_updated: "Ihre Zwei-Faktor-Authentifizierungs‑Einstellungen wurden aktualisiert."
+        could_not_confirm: "Der von Ihnen eingegebene Bestätigungscode stimmt nicht mit dem unten gezeigten QR-Code überein."
+        successfully_disabled_otp: "Zwei-Faktor-Authentifizierung wurde deaktiviert."
+        successfully_reset_otp: "Ihr Token‑Geheimnis wurde zurückgesetzt. Bitte bestätigen Sie Ihr neues Token‑Geheimnis unten."
+        successfully_set_persistence: "Ihr Gerät ist jetzt vertrauenswürdig."
+        successfully_cleared_persistence: "Ihr Gerät wurde aus der Liste vertrauenswürdiger Geräte entfernt."
+        successfully_reset_persistence: "Ihre Liste vertrauenswürdiger Geräte wurde gelöscht."
+        recovery:
+          title: "Ihre Notfall‑Wiederherstellungscodes"
+          explain: "Notieren oder drucken Sie diese Wiederherstellungscodes. Sie ermöglichen den Zugriff, falls Ihr Token‑Gerät verloren, gestohlen oder nicht verfügbar ist."
+          sequence: "Reihenfolge"
+          code: "Wiederherstellungs‑Code"
+          codes_list: "Hier ist die Liste Ihrer Wiederherstellungscodes"
+          download_codes: "Wiederherstellungscodes herunterladen"
+      edit_otp_token:
+        title: "Zwei-Faktor-Authentifizierung aktivieren"
+        explain: "Zwei‑Faktor‑Authentifizierung bietet eine zusätzliche Sicherheitsebene. Beim Einloggen benötigen Sie einen Code, den Sie auf einem physischen Gerät (z. B. Ihrem Telefon) generieren."
+        lead_in: "So aktivieren Sie die Zwei‑Faktor‑Authentifizierung:"
+        step_1: "1. Öffnen Sie Ihre Authentifizierungs‑App und scannen Sie den unten gezeigten QR‑Code:"
+        step_2: "2. Geben Sie den 6‑stelligen Code aus Ihrer Authenticator‑App unten ein:"
+        confirmation_code: "Bestätigungscode"
+        submit: "Weiter..."
+      trusted_browsers:
+        title: "Vertrauenswürdige Browser"
+        explain: "Wenn Sie Ihren Browser als vertrauenswürdig markieren, werden Sie bei der Anmeldung in diesem Browser nicht nach einem Zwei‑Faktor‑Token gefragt."
+        browser_trusted: "Ihr Browser ist vertrauenswürdig."
+        browser_not_trusted: "Ihr Browser ist nicht vertrauenswürdig."
+        trust_remove: "Diesen Browser aus der Liste vertrauenswürdiger Browser entfernen"
+        trust_add: "Diesen Browser vertrauenswürdig machen"
+        trust_clear: "Liste vertrauenswürdiger Browser löschen"

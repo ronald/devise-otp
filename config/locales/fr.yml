@@ -1,0 +1,65 @@
+fr:
+  devise:
+    otp:
+      general:
+        remember: "Se souvenir de moi"
+      submit_token:
+        title: "Vérifier le jeton"
+        explain: "Vous recevez ceci car vous avez activé l’authentification à deux facteurs sur votre compte"
+        prompt: "Veuillez entrer votre jeton d’authentification à deux facteurs :"
+        recovery_prompt: "Veuillez entrer votre code de récupération :"
+        submit: "Envoyer le jeton"
+        recovery_link: "Je n’ai pas mon appareil, je veux utiliser un code de récupération"
+      otp_credentials:
+        otp_session_invalid: "Session invalide. Veuillez recommencer."
+        token_invalid: "Le jeton fourni est invalide."
+        token_blank: "Vous devez saisir le jeton que vous avez généré avec votre appareil."
+        valid_refresh: "Merci, vos informations ont été acceptées."
+        invalid_refresh: "Désolé, vous avez fourni de mauvaises informations d’identification."
+      credentials_refresh:
+        title: "Veuillez saisir à nouveau votre mot de passe."
+        explain: "Pour garantir la sécurité, veuillez entrer votre mot de passe une nouvelle fois."
+        go_on: "Continuer…"
+        identity: "Identité :"
+        token: "Votre jeton d’authentification à deux facteurs"
+      token_secret:
+        title: "Votre secret de jeton"
+        explain: "Prenez une photo de ce code QR avec votre mobile"
+        manual_provisioning: "Code de provisionnement manuel"
+      otp_tokens:
+        title: "Authentification à deux facteurs :"
+        enable_link: "Activer l’authentification à deux facteurs"
+        disable_link: "Désactiver l’authentification à deux facteurs"
+        reset_link: "Réinitialiser le secret du jeton"
+        reset_explain: "La réinitialisation de votre secret de jeton désactivera temporairement l’authentification à deux facteurs."
+        reset_explain_warn: "Pour réactiver l’authentification à deux facteurs, vous devrez réenregistrer votre appareil mobile avec le nouveau secret."
+        successfully_updated: "Vos paramètres d’authentification à deux facteurs ont été mis à jour."
+        could_not_confirm: "Le code de confirmation que vous avez saisi ne correspond pas au code QR ci-dessous."
+        successfully_disabled_otp: "L’authentification à deux facteurs a été désactivée."
+        successfully_reset_otp: "Votre secret de jeton a été réinitialisé. Veuillez confirmer votre nouveau secret de jeton ci‑dessous."
+        successfully_set_persistence: "Votre appareil est désormais approuvé."
+        successfully_cleared_persistence: "Votre appareil a été supprimé de la liste des appareils approuvés."
+        successfully_reset_persistence: "Votre liste d’appareils approuvés a été effacée."
+        recovery:
+          title: "Vos codes de récupération d’urgence"
+          explain: "Notez ou imprimez ces codes de récupération. Ils vous permettront de vous reconnecter si votre appareil de jeton est perdu, volé ou indisponible."
+          sequence: "Séquence"
+          code: "Code de récupération"
+          codes_list: "Voici la liste de vos codes de récupération"
+          download_codes: "Télécharger les codes de récupération"
+      edit_otp_token:
+        title: "Activer l’authentification à deux facteurs"
+        explain: "L’authentification à deux facteurs ajoute une couche de sécurité supplémentaire à votre compte. Lors de la connexion, on vous demandera un code généré sur un appareil physique comme votre téléphone."
+        lead_in: "Pour activer l’authentification à deux facteurs :"
+        step_1: "1. Ouvrez votre application d’authentification et scannez le code QR ci‑dessous :"
+        step_2: "2. Entrez le code à 6 chiffres affiché dans votre application d’authentification :"
+        confirmation_code: "Code de confirmation"
+        submit: "Continuer…"
+      trusted_browsers:
+        title: "Navigateurs de confiance"
+        explain: "Si vous marquez votre navigateur comme de confiance, vous ne serez pas invité à fournir un jeton d’authentification à deux facteurs lors de la connexion depuis ce navigateur."
+        browser_trusted: "Votre navigateur est approuvé."
+        browser_not_trusted: "Votre navigateur n’est pas approuvé."
+        trust_remove: "Supprimer ce navigateur de la liste des navigateurs approuvés"
+        trust_add: "Faire confiance à ce navigateur"
+        trust_clear: "Effacer la liste des navigateurs approuvés"

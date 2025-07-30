@@ -48,7 +48,12 @@ module DeviseOtp
       end
 
       def copy_locale
-        copy_file "../../../config/locales/en.yml", "config/locales/devise.otp.en.yml"
+        paths = source_paths.flat_map { |source_path| File.expand_path("#{source_path}/../../../config/locales/*.yml") }
+        files = paths.flat_map{|path| Dir.glob(path) }
+        files.each do |file|
+          # copy_file "../../../config/locales/de.yml", "config/locales/devise.otp.en.yml"
+          copy_file file, "config/locales/devise.otp.#{File.basename(file)}"
+        end
       end
     end
   end

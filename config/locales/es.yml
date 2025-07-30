@@ -1,0 +1,65 @@
+es:
+  devise:
+    otp:
+      general:
+        remember: "Recordarme"
+      submit_token:
+        title: "Verificar token"
+        explain: "Recibes esto porque activaste la autenticación de dos factores en tu cuenta"
+        prompt: "Por favor, ingresa tu token de autenticación de dos factores:"
+        recovery_prompt: "Por favor, ingresa tu código de recuperación:"
+        submit: "Enviar token"
+        recovery_link: "No tengo mi dispositivo, quiero usar un código de recuperación"
+      otp_credentials:
+        otp_session_invalid: "Sesión inválida. Por favor, comienza de nuevo."
+        token_invalid: "El token proporcionado no es válido."
+        token_blank: "Debes ingresar el token que generaste con tu dispositivo."
+        valid_refresh: "Gracias, tus credenciales fueron aceptadas."
+        invalid_refresh: "Lo sentimos, proporcionaste credenciales incorrectas."
+      credentials_refresh:
+        title: "Por favor, ingresa tu contraseña nuevamente."
+        explain: "Para asegurar que esto sea seguro, ingresa tu contraseña otra vez."
+        go_on: "Continuar..."
+        identity: "Identidad:"
+        token: "Tu token de autenticación de dos factores"
+      token_secret:
+        title: "Tu secreto de token"
+        explain: "Toma una foto de este código QR con tu móvil"
+        manual_provisioning: "Código de configuración manual"
+      otp_tokens:
+        title: "Autenticación de dos factores:"
+        enable_link: "Activar autenticación de dos factores"
+        disable_link: "Desactivar autenticación de dos factores"
+        reset_link: "Restablecer secreto del token"
+        reset_explain: "Restablecer tu secreto del token desactivará temporalmente la autenticación de dos factores."
+        reset_explain_warn: "Para reactivar la autenticación de dos factores, deberás volver a registrar tu dispositivo móvil con el nuevo secreto."
+        successfully_updated: "Tus configuraciones de autenticación de dos factores se han actualizado."
+        could_not_confirm: "El código de confirmación que ingresaste no coincide con el código QR que se muestra abajo."
+        successfully_disabled_otp: "La autenticación de dos factores ha sido desactivada."
+        successfully_reset_otp: "Tu secreto de token ha sido restablecido. Por favor confirma tu nuevo secreto del token abajo."
+        successfully_set_persistence: "Tu dispositivo ahora está confiable."
+        successfully_cleared_persistence: "Tu dispositivo ha sido eliminado de la lista de dispositivos confiables."
+        successfully_reset_persistence: "Tu lista de dispositivos confiables ha sido borrada."
+        recovery:
+          title: "Tus códigos de recuperación de emergencia"
+          explain: "Toma nota o imprime estos códigos de recuperación. Te permitirán iniciar sesión si pierdes o no tienes tu dispositivo de token."
+          sequence: "Secuencia"
+          code: "Código de recuperación"
+          codes_list: "Aquí está la lista de tus códigos de recuperación"
+          download_codes: "Descargar códigos de recuperación"
+      edit_otp_token:
+        title: "Activar autenticación de dos factores"
+        explain: "La autenticación de dos factores añade una capa extra de seguridad a tu cuenta. Al iniciar sesión se te pedirá un código que puedes generar en un dispositivo físico como tu teléfono."
+        lead_in: "Para activar la autenticación de dos factores:"
+        step_1: "1. Abre tu app de autenticación y escanea el código QR que se muestra abajo:"
+        step_2: "2. Ingresa el código de 6 dígitos que aparece en tu app de autenticación:"
+        confirmation_code: "Código de confirmación"
+        submit: "Continuar..."
+      trusted_browsers:
+        title: "Navegadores confiables"
+        explain: "Si configuras tu navegador como confiable, no se te pedirá un token de autenticación al iniciar sesión desde ese navegador."
+        browser_trusted: "Tu navegador es confiable."
+        browser_not_trusted: "Tu navegador no es confiable."
+        trust_remove: "Eliminar este navegador de la lista de navegadores confiables"
+        trust_add: "Confiar en este navegador"
+        trust_clear: "Borrar la lista de navegadores confiables"

@@ -1,0 +1,65 @@
+pl:
+  devise:
+    otp:
+      general:
+        remember: "Zapamiętaj mnie"
+      submit_token:
+        title: "Sprawdź token"
+        explain: "Otrzymujesz to, ponieważ włączyłeś uwierzytelnianie dwuskładnikowe na swoim koncie"
+        prompt: "Wpisz token uwierzytelniania dwuskładnikowego:"
+        recovery_prompt: "Wpisz kod odzyskiwania:"
+        submit: "Wyślij token"
+        recovery_link: "Nie mam urządzenia, chcę użyć kodu odzyskiwania"
+      otp_credentials:
+        otp_session_invalid: "Sesja nieprawidłowa. Proszę zacząć od nowa."
+        token_invalid: "Podany token jest nieprawidłowy."
+        token_blank: "Musisz wpisać token wygenerowany przez twoje urządzenie."
+        valid_refresh: "Dziękujemy, twoje dane zostały zaakceptowane."
+        invalid_refresh: "Przepraszamy, podałeś nieprawidłowe dane."
+      credentials_refresh:
+        title: "Wpisz ponownie swoje hasło."
+        explain: "Aby to było bezpieczne, wpisz ponownie swoje hasło."
+        go_on: "Kontynuuj..."
+        identity: "Tożsamość:"
+        token: "Twój token uwierzytelniania dwuskładnikowego"
+      token_secret:
+        title: "Twój sekret tokenu"
+        explain: "Zrób zdjęcie tego kodu QR telefonem"
+        manual_provisioning: "Ręczny kod konfiguracji"
+      otp_tokens:
+        title: "Uwierzytelnianie dwuskładnikowe:"
+        enable_link: "Włącz uwierzytelnianie dwuskładnikowe"
+        disable_link: "Wyłącz uwierzytelnianie dwuskładnikowe"
+        reset_link: "Zresetuj sekret tokenu"
+        reset_explain: "Resetowanie sekretu tokenu tymczasowo wyłączy uwierzytelnianie dwuskładnikowe."
+        reset_explain_warn: "Aby ponownie włączyć uwierzytelnianie dwuskładnikowe, musisz ponownie zarejestrować urządzenie mobilne z nowym sekretem."
+        successfully_updated: "Twoje ustawienia uwierzytelniania dwuskładnikowego zostały zaktualizowane."
+        could_not_confirm: "Wprowadzony kod potwierdzający nie zgadza się z kodem QR pokazanym poniżej."
+        successfully_disabled_otp: "Uwierzytelnianie dwuskładnikowe zostało wyłączone."
+        successfully_reset_otp: "Twój sekret tokenu został zresetowany. Proszę potwierdź swój nowy sekret poniżej."
+        successfully_set_persistence: "Twoje urządzenie jest teraz zaufane."
+        successfully_cleared_persistence: "Twoje urządzenie zostało usunięte z listy zaufanych urządzeń."
+        successfully_reset_persistence: "Twoja lista zaufanych urządzeń została wyczyszczona."
+        recovery:
+          title: "Twoje kody odzyskiwania awaryjnego"
+          explain: "Zapisz lub wydrukuj te kody odzyskiwania. Pozwolą Ci się zalogować, jeśli twój tokenowy urządzenie zostanie utracone, skradzione lub niedostępne."
+          sequence: "Sekwencja"
+          code: "Kod odzyskiwania"
+          codes_list: "Oto lista twoich kodów odzyskiwania"
+          download_codes: "Pobierz kody odzyskiwania"
+      edit_otp_token:
+        title: "Włącz uwierzytelnianie dwuskładnikowe"
+        explain: "Uwierzytelnianie dwuskładnikowe dodaje dodatkową warstwę bezpieczeństwa do konta. Podczas logowania zostaniesz poproszony o kod generowany na fizycznym urządzeniu, np. telefonie."
+        lead_in: "Aby włączyć uwierzytelnianie dwuskładnikowe:"
+        step_1: "1. Otwórz aplikację uwierzytelniającą i zeskanuj poniższy kod QR:"
+        step_2: "2. Wprowadź 6-cyfrowy kod wyświetlany w aplikacji:"
+        confirmation_code: "Kod potwierdzający"
+        submit: "Kontynuuj..."
+      trusted_browsers:
+        title: "Zaufane przeglądarki"
+        explain: "Jeśli oznaczysz przeglądarkę jako zaufaną, nie będziesz proszony o token przy logowaniu z tej przeglądarki."
+        browser_trusted: "Twoja przeglądarka jest zaufana."
+        browser_not_trusted: "Twoja przeglądarka nie jest zaufana."
+        trust_remove: "Usuń tę przeglądarkę z listy zaufanych"
+        trust_add: "Zaufaj tej przeglądarce"
+        trust_clear: "Wyczyść listę zaufanych przeglądarek"

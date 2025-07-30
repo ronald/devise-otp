@@ -1,0 +1,65 @@
+fi:
+  devise:
+    otp:
+      general:
+        remember: "Muista minut"
+      submit_token:
+        title: "Tarkista tunnus"
+        explain: "Saat tämän, koska olet ottanut kaksivaiheisen todennuksen käyttöön tililläsi"
+        prompt: "Anna kaksivaiheisen todennuksen tunnuskoodisi:"
+        recovery_prompt: "Anna palautuskoodisi:"
+        submit: "Lähetä tunnus"
+        recovery_link: "Minulla ei ole laitetta, haluan käyttää palautuskoodia"
+      otp_credentials:
+        otp_session_invalid: "Istunto epäkelpo. Aloita alusta."
+        token_invalid: "Antamasi tunnus oli virheellinen."
+        token_blank: "Sinun on annettava laitteellasi luotu tunnus."
+        valid_refresh: "Kiitos, tunnistetietosi hyväksyttiin."
+        invalid_refresh: "Valitettavasti annoit väärät tunnistetiedot."
+      credentials_refresh:
+        title: "Anna salasanasi uudelleen."
+        explain: "Turvallisuuden varmistamiseksi anna salasana uudelleen."
+        go_on: "Jatka..."
+        identity: "Identiteetti:"
+        token: "Kaksivaiheisen todennuksen tunnuskoodisi"
+      token_secret:
+        title: "Tunnussalaisuutesi"
+        explain: "Ota valokuva tästä QR-koodista mobiililaitteellasi"
+        manual_provisioning: "Manuaalinen asennuskoodi"
+      otp_tokens:
+        title: "Kaksivaiheinen todennus:"
+        enable_link: "Ota kaksivaiheinen todennus käyttöön"
+        disable_link: "Poista kaksivaiheinen todennus käytöstä"
+        reset_link: "Nollaa tunnussalaisuus"
+        reset_explain: "Tunnussalaisuuden nollaaminen poistaa väliaikaisesti käytöstä kaksivaiheisen todennuksen."
+        reset_explain_warn: "Kaksivaiheisen todennuksen uudelleen käyttöönottoa varten sinun on uudelleenasennettava mobiililaitteesi uudella salaisuudella."
+        successfully_updated: "Kaksivaiheisen todennuksen asetukset päivitettiin."
+        could_not_confirm: "Syöttämäsi vahvistuskoodi ei vastannut alla näkyvää QR-koodia."
+        successfully_disabled_otp: "Kaksivaiheinen todennus on poistettu käytöstä."
+        successfully_reset_otp: "Tunnussalaisuutesi on nollattu. Vahvista uusi salaisuus alla."
+        successfully_set_persistence: "Laite on nyt luotettu."
+        successfully_cleared_persistence: "Laite poistettiin luotettujen laitteiden listalta."
+        successfully_reset_persistence: "Luotettujen laitteiden lista tyhjennettiin."
+        recovery:
+          title: "Hätäpalautuskoodisi"
+          explain: "Kirjoita tai tulosta nämä palautuskoodit. Ne antavat pääsyn jos tunnuslaite katoaa tai ei ole saatavilla."
+          sequence: "Sarja"
+          code: "Palautuskoodi"
+          codes_list: "Tässä on listasi palautuskoodeista"
+          download_codes: "Lataa palautuskoodit"
+      edit_otp_token:
+        title: "Ota kaksivaiheinen todennus käyttöön"
+        explain: "Kaksivaiheinen todennus lisää tilillesi ylimääräisen suojakerroksen. Kirjautuessasi tarvitset koodin, jonka voit generoida fyysisellä laitteella, kuten puhelimellasi."
+        lead_in: "Ota kaksivaiheinen todennus käyttöön näin:"
+        step_1: "1. Avaa autentikointisovellus ja skannaa alla näkyvä QR-koodi:"
+        step_2: "2. Syötä autentikointisovelluksesi näyttämä 6‑numero​inen koodi:"
+        confirmation_code: "Vahvistuskoodi"
+        submit: "Jatka..."
+      trusted_browsers:
+        title: "Luotetut selaimet"
+        explain: "Jos merkitset selaimesi luotetuksi, sinulta ei kysytä kaksivaiheista tunnusta kirjautumisen yhteydessä kyseisestä selaimesta."
+        browser_trusted: "Selaimesi on luotettu."
+        browser_not_trusted: "Selaimesi ei ole luotettu."
+        trust_remove: "Poista tämä selain luotettujen selainten listalta"
+        trust_add: "Luota tähän selaimeen"
+        trust_clear: "Tyhjennä luotettujen selainten lista"
